@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Scat">
+    <meta name="description" content="ScanityPark Ping Pong">
+
+    <link rel="icon" href="../img/pingpong.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="../css/design.css">
+    <link rel="stylesheet" href="../../../css/design.css">
+    
+    <title>PingPong | ScanityPark</title>
+</head>
+<body>
+    <header id="topbar">
+        <div class="tb-left">
+            <div class="topdiv">
+                <img src="../../../img/logo.png" alt="Logo" id="logo">
+            </div>
+            <div class="topdiv">
+                <img src="../../../img/coin.png" alt="Coin" id="coin">
+                <strong id="coins"> $1000000000 </strong>
+            </div>
+        </div>
+
+        <div class="tb-center">
+            <div class="topdiv" id="search">
+                <input type="text" placeholder="Search" id="searchbox">
+            </div>
+        </div>
+        
+        <div class="tb-right">
+            <div class="topdiv">
+                <strong>12345678901234567890</strong>
+                <img src="../../../img/profile.png" alt="Profile" id="profile">
+            </div>
+            <div class="topdiv" id="setting">
+                <img src="../../../img/settings.png" alt="settings" id="settings">
+            </div>
+        </div>
+        
+    </header>
+    
+    <div id="feed">
+        <canvas id="gameCanvas"></canvas>
+        <div id="controls">
+            <div>Move Left:<img src="../img/left.jpeg" alt="Left Arrow"></div>
+            <div>Move Right:<img src="../img/right.jpeg" alt="Right Arrow"></div>
+            <div>Pause/Resume:<img src="../img/esc.jpeg" alt="Escape"></div>
+            <div>Start/Restart:<img src="../img/spacebar.jpeg" alt="Spacebar"></div>
+        </div>
+    </div>
+    <script type ="module" src="../js/object.js"></script>
+    <script type ="module" src="../js/phyEngine.js"></script>
+    <script type ="module" src="../js/paddle.js"></script>
+    <script type ="module" src="../js/pingpong.js"></script>
+    <footer>
+        <div> <a href="../../../html/tos.html">Support</a> </div>
+        <div> <a href="../../../html/faq.html">FAQ</a> </div>
+        <div> <a href="../../../html/tos.html">Terms of Service</a> </div>
+    </footer>
+</body>
+</html>
